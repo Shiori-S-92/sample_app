@@ -60,6 +60,25 @@ main {
   margin: 0 auto;
 }
 
+.top-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-box {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  position: relative;
+}
+
+.top-text {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
 .list-wrap {
   display: flex;
   flex-wrap: wrap;
